@@ -18,24 +18,24 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from instantnoodlep device
-$(call inherit-product, device/oneplus/instantnoodlep/device.mk)
+# Inherit from instantnoodle device
+$(call inherit-product, device/oneplus/instantnoodle/device.mk)
 
 # Inherit some common PixelExperience stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Boot Animation
-TARGET_BOOT_ANIMATION_RES := 1440
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_instantnoodlep
-PRODUCT_DEVICE := instantnoodlep
+PRODUCT_NAME := aosp_instantnoodle
+PRODUCT_DEVICE := instantnoodle
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := ONEPLUS IN2023
+PRODUCT_MODEL := ONEPLUS IN2015
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_DEVICE=OnePlus8Pro \
-    PRODUCT_NAME=OnePlus8Pro
+    PRODUCT_DEVICE=OnePlus8 \
+    PRODUCT_NAME=OnePlus8

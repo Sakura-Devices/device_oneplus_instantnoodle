@@ -33,7 +33,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
-PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # API Level
 PRODUCT_SHIPPING_API_LEVEL := 29
@@ -49,4 +49,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/fingerprint/lib64/libgf_g6_ud_hal.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/libgf_g6_ud_hal.so
 
 # Inherit from vendor blobs
-#$(call inherit-product, vendor/oneplus/instantnoodlep/instantnoodlep-vendor.mk)
+#$(call inherit-product, vendor/oneplus/instantnoodle/instantnoodle-vendor.mk)
