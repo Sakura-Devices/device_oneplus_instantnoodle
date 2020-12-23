@@ -24,6 +24,10 @@ $(call inherit-product, device/oneplus/instantnoodle/device.mk)
 # Inherit some common Sakura/Lineage
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# ProjectSakura
+SAKURA_GAPPS := true
+#SAKURA_OFFICIAL := false
+
 # FaceUnlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
