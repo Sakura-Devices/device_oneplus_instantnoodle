@@ -26,7 +26,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # ProjectSakura
 SAKURA_GAPPS := true
-#SAKURA_OFFICIAL := false
+SAKURA_OFFICIAL := true
 
 # FaceUnlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
